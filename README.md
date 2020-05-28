@@ -1,7 +1,8 @@
-# ibood
-Open up main.php, change the following line (line 15)
+# iBood Hunt
+Open up main.php, pass your PushOver userKey and appToken in the following lines (lines 15 + 16)
 ```php
-$pushbullet->setToken("");
+$pushbullet_user_key = "";
+$pushbullet_app_token = "";
 ```
 
-Fill in your own token and run the script.
+Fill in your own key and token and run the script.
